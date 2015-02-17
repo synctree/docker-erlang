@@ -8,7 +8,8 @@ ENV ERLANG_VERSION 1:17.4
 RUN apt-key adv --keyserver pool.sks-keyservers.net --recv-keys  D208507CA14F4FCA
 
 RUN apt-get update \
-        && apt-get install -y erlang="$ERLANG_VERSION" \
+        && apt-get install -y \
+               erlang="$ERLANG_VERSION" \
         && rm -rf /var/lib/apt/lists/*
 
 CMD ["erl"]
