@@ -5,7 +5,7 @@ RUN echo 'deb http://packages.erlang-solutions.com/debian jessie contrib' > /etc
 
 ENV ERLANG_VERSION 1:17.4
 
-RUN apt-key adv --keyserver pool.sks-keyservers.net --recv-keys  D208507CA14F4FCA
+RUN apt-key adv --keyserver pool.sks-keyservers.net --recv-keys  434975BD900CCBE4F7EE1B1ED208507CA14F4FCA
 
 RUN apt-get update \
         && apt-get install -y --no-install-recommends \
