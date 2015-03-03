@@ -8,4 +8,4 @@ This image comes in three versions:
 * R16 (based on `debian:wheezy`)
 * R17 (based on `debian:jessie`)
 
-These image install the `erlang` package from ESL, which pulls in `erlang-base` and the OTP framework packages. Additionally, the R16 and R17 versions include a `slim` variant that only installs `erlang-base` with no additional packages.
+These images install the `erlang` package from ESL, which pulls in `erlang-base` and the OTP framework packages. Additionally, the R16 and R17 versions include a `slim` variant that only installs `erlang-base` with no additional packages.
