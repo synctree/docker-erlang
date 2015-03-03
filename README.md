@@ -2,10 +2,13 @@
 
 The `synctree/erlang` image is intended for use as a base image for Erlang/OTP applications. This Debian-based image uses the packages from [Erlang Solutions Limited](https://www.erlang-solutions.com/).
 
-This image comes in three versions:
+## Available Variants
+There are versions of this image for Erlang/OTP R15, R16, and R17. Additionally, the R16 and R17 versions have a `slim` variant that installs only `erlang-base` and `erlang-crypto` as opposed to installing the `erlang` package and all its dependencies.
 
-* R15 (based on `debian:squeeze`)
-* R16 (based on `debian:wheezy`)
-* R17 (based on `debian:jessie`)
-
-These images install the `erlang` package from ESL, which pulls in `erlang-base` and the OTP framework packages. Additionally, the R16 and R17 versions include a `slim` variant that only installs `erlang-base` with no additional packages.
+| Tag      | Base             | Packages      |
+|----------|------------------|---------------|
+| R15      | `debian:squeeze` | `esl-erlang`  |
+| R16      | `debian:wheezy`  | `erlang`      |
+| R16-slim | `debian:wheezy`  | `erlang-base`<br>`erlang-crypto` |
+| R17      | `debian:jessie`  | `erlang`      |
+| R17-slim | `debian:jessie`  | `erlang-base`<br>`erlang-crypto` |
