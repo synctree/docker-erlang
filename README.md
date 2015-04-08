@@ -12,4 +12,5 @@ There are versions of this image for Erlang/OTP R15, R16, and R17. Additionally,
 | R16-slim   | `debian:wheezy`  | `erlang-base`<br>`erlang-crypto` |
 | R17        | `debian:jessie`  | `erlang`                         |
 | R17-slim   | `debian:jessie`  | `erlang-base`<br>`erlang-crypto` |
+| R17-trusty | `ubuntu:trusty`  | `erlang`                         |
 | R17-utopic | `ubuntu:utopic`  | `erlang`                         |
