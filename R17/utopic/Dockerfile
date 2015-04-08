@@ -3,7 +3,7 @@ MAINTAINER Synctree App Force <appforce+docker@synctree.com>
 
 RUN echo 'deb http://packages.erlang-solutions.com/debian utopic contrib' > /etc/apt/sources.list.d/esl.list
 
-ENV ERLANG_VERSION 1:17.4
+ENV ERLANG_VERSION 1:17.5
 
 RUN apt-key adv --keyserver pool.sks-keyservers.net --recv-keys  434975BD900CCBE4F7EE1B1ED208507CA14F4FCA
 
